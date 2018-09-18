@@ -1,0 +1,6 @@
+# IDE related
+.idea
+
+# Databases
+*.sqlite
+*.sqlite3
