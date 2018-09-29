@@ -5,6 +5,7 @@ from django.shortcuts import render
 def index(request):
     return HttpResponse("Hello world. You are at the snippets app.")
 
+
 # Class based views
 
 # See all snippets

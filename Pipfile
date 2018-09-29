@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 django = "*"
+django-extended-choices = "*"
+factory-boy = "*"
 
 [dev-packages]
 
