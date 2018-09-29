@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'django_extensions',
 
     # Project apps
-    'book_snippets',
+    'snippets',
 ]
 
 MIDDLEWARE = [
