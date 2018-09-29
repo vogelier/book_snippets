@@ -7,6 +7,7 @@ name = "pypi"
 django = "*"
 django-extended-choices = "*"
 factory-boy = "*"
+django-shell-plus = "*"
 
 [dev-packages]
 

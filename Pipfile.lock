@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "806cf1cb3014d86fb7ce86a6d8b31de52581e7e0553f6b0b22b4b69df1e5fad1"
+            "sha256": "411e096175d083ca1f85cd1ae1cb5b3b55f005cb88bf6f9f36560c27a9a9eaec"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,6 +32,13 @@
             "index": "pypi",
             "version": "==1.3"
         },
+        "django-shell-plus": {
+            "hashes": [
+                "sha256:fcad4b3b97ee66d3fb61dc020711d53acf71db637b3e40970e9c7b23949e2b50"
+            ],
+            "index": "pypi",
+            "version": "==1.1.7"
+        },
         "factory-boy": {
             "hashes": [
                 "sha256:6f25cc4761ac109efd503f096e2ad99421b1159f01a29dbb917359dcd68e08ca",
@@ -45,6 +52,7 @@
                 "sha256:74b32991f8e08e4f2f84858b919eca253becfaec4b3fa5fcff7fdbd70d5d78b1",
                 "sha256:c2ce42dd8361e6d392276006d757532562463c8642b1086709584200b7fd7758"
             ],
+            "markers": "python_version >= '2.7' and python_version != '3.1.*' and python_version != '3.2.*' and python_version != '3.0.*'",
             "version": "==0.9.1"
         },
         "future": {
