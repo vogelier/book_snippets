@@ -1,4 +1,6 @@
 from django.db import models
+from django.utils.translation import ugettext_lazy as _
+
 from extended_choices import Choices
 from datetime import datetime
 
@@ -6,7 +8,7 @@ from datetime import datetime
 # Create your models here.
 class Author(models.Model):
     name = models.fields.CharField(
-        "Author's full name",
+        _('Author full name'),
         max_length=255
     )
     birth_year = models.fields.SmallIntegerField()
@@ -17,6 +19,7 @@ class Author(models.Model):
 
 
 class Source(models.Model):
+    # TODO - i18n support here
     PUBLICATION_TYPES = Choices(
         ('BOOK', 1, 'book'),
     )
@@ -33,7 +36,7 @@ class Source(models.Model):
 
     def __str__(self):
         if self.authors.count == 1:
-            return ("%s by %s") % (self.title, self.authors.objects.first())
+            return _("%s by %s") % (self.title, self.authors.objects.first())
 
 
 class Tag(models.Model):
