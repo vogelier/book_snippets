@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # custom
+    # 3rd party
+    'django_extensions',
+
+    # Project apps
     'book_snippets',
 ]
 

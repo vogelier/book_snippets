@@ -8,6 +8,7 @@ django = "*"
 django-extended-choices = "*"
 factory-boy = "*"
 django-shell-plus = "*"
+django-extensions = "*"
 
 [dev-packages]
 
